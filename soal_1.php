@@ -32,7 +32,7 @@ class soal_1 extends School
 		$university = $sekolah->university;
 
 
-		$data = array('nama'=>$name, 'alamat'=>$address, 'hobi'=>$hobbies, 'is_married'=>$is_married ,'sekolah'=>$school_1,'Universitas'=>$university,'skill'=>$skills);
+		$data = array('name'=>$name, 'address'=>$address, 'hobbies'=>$hobbies, 'is_married'=>$is_married ,'school'=>$school_1,'Universitas'=>$university,'skills'=>$skills);
 
 		return json_encode($data);
 
@@ -42,7 +42,7 @@ class soal_1 extends School
 class School
 {
 	public $highSchool = "SMK PGRI 3 MALANG";
-	public $university = "UNIVERSITAS INDONESIA";
+	public $university = "SKARIGA";
 }
 
 class Skillku
